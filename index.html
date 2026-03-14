@@ -7,9 +7,37 @@
 
     <meta name="author" content="Soonbin Lee (이순빈)">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="material/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
+    <style>
+      /* Toggle (Details/Summary) Style */
+      details summary {
+        cursor: pointer;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 1.1em;
+        color: #2a7ae2;
+        transition: color 0.2s ease-in-out;
+      }
+      details summary:hover {
+        color: #155cb0;
+      }
+      details {
+        margin-bottom: 20px;
+      }
+      .section-title {
+        padding: 20px;
+        width: 100%;
+      }
+      .sub-header {
+        font-weight: bold;
+        margin-top: 15px;
+        display: block;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 5px;
+      }
+    </style>
   </head>
 
   <body>
@@ -22,141 +50,248 @@
                 <p class="name" style="text-align: center;">
                   Soonbin Lee (이순빈)
                 </p>
-		      <p>
-			I'm a Research Associate at <a href="https://www.hhi.fraunhofer.de/en/departments/vca.html">Fraunhofer Heinrich-Hertz-Institut (HHI)</a> in Berlin, Germany. I work in the multimedia communications group, which primarily focuses on immersive media technologies such as NeRF, 6DoF media compression and streaming system.
-		      </p>
+          <p>
+      I'm a Research Associate at <a href="https://www.hhi.fraunhofer.de/en/departments/vca.html">Fraunhofer Heinrich-Hertz-Institut (HHI)</a> in Berlin, Germany. I work in the multimedia communications group, which primarily focuses on immersive media technologies such as NeRF, 6DoF media compression and streaming system.
+          </p>
                 <p>
                  Before joining the HHI, I received B.S. degree from Gachon University and M.S. degree from Sungkyunkwan University (SKKU). I participated in the standardization of <a href="https://mpeg-miv.org/index.php/overview/">ISO/IEC 23090-12 MPEG immersive video (MIV)</a>, with <a href="http://mcsl.skku.edu">Prof. Eun-Seok Ryu</a>.
                 </p>
-		      <p>Most of my research focuses on processing and transmitting new media. Specifically, I'm interested in <FONT COLOR=blue>visual data compression</FONT> and <FONT COLOR=green>video coding systems for multimedia.</FONT>
-		      </p>
+          <p>Most of my research focuses on processing and transmitting new media. Specifically, I'm interested in <FONT COLOR=blue>visual data compression</FONT> and <FONT COLOR=green>video coding systems for multimedia.</FONT>
+          </p>
                 <p style="text-align:center">
                   <a href="mailto:soon0698@gmail.com">Email</a> &nbsp;/&nbsp;
-		  <a href="https://www.linkedin.com/in/soonbin-lee-78801991/">Linkedin</a> &nbsp;/&nbsp;
+      <a href="https://www.linkedin.com/in/soonbin-lee-78801991/">Linkedin</a> &nbsp;/&nbsp;
                   <a href="https://drive.google.com/file/d/12wPVQAScpAEu2DiUzLzj1G6tvGoor74G/view?usp=sharing">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.co.kr/citations?user=gfCC150AAAAJ&hl=en">Google Scholar</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:60%;max-width:60%">
-                <a href="images/slee_photo.png"><img style="width:115%;max-width:115%" alt="profile photo" src="images/slee_photo.png" class="hoverZoomLink"></a>
+                <a href="material/slee_photo.png"><img style="width:115%;max-width:115%" alt="profile photo" src="material/slee_photo.png" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;">
                   <h3>News</h3>
-	          <ul>
-	    <li>06/2025 Our paper on <FONT COLOR=blue>GS compression</FONT>  is accepted to ICCV 2025. </li>
-	    <li>07/2024 Our paper on <FONT COLOR=blue>NeRF compression</FONT>  is accepted to MMSP 2024 (Oral). </li>
-	    <li>02/2024 Our paper on <FONT COLOR=green>MIV system</FONT> is accepted to TOMM. </li>
-            <li>09/2023 Our paper on <FONT COLOR=green>360 VR streaming</FONT> is accepted to VCIP 2023 (Oral). </li>
-            <br>
+            <ul>
+            <li>03/2026 GS compression demo paper (IEEE VRW) & Invited paper (DCC) is presented</li>
+            <li>03/2026 GS compression demo, Mobile World Congress (MWC) 2026</li>
+            <li>01/2026 <FONT COLOR=blue>GS compaction</FONT> paper, arXiv preprint</li>
+            <li>10/2025 <FONT COLOR=green>(Ongoing) JVET AHG9 contribution: Gaussian splatting SEI messages</FONT></li>
+            <li>06/2025 <FONT COLOR=blue>GS compression</FONT> paper, ICCV 2025</li>
+            <li>07/2024 <FONT COLOR=blue>NeRF compression</FONT> paper, MMSP 2024 (Oral)</li>
           </ul>
-
                 </td>
-
               </tr>
-
             </tbody>
           </table>
 
-<table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:20px;width:100%;">
-                  <h3>Highlighted Publications</h3>
+                <td class="section-title"><h3>Highlighted Publications</h3></td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>   
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top"><img src='material/codecGS.png' width="150"></td>
+                <td style="padding:20px;width:75%;vertical-align:top">
+                  <a href="https://arxiv.org/abs/2602.06830"><span class="papertitle">GaussianPOP: Principled Simplification Framework for Compact 3D Gaussian Splatting via Error Quantification</span></a> <a href="https://fraunhoferhhi.github.io/GaussianPOP/">[Project Page]</a></br>
+                  <strong>Soonbin Lee</strong>, Yeong-Gyu Kim, Simon Sasse, Tomas M. Borges, Yago Sanchez, Eun-Seok Ryu, Thomas Schierl, Cornelius Hellge<br>
+                  arXiv, 2026
+                </td>
+              </tr>
+
+
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:top">
+                    <img src='material/dcc26.jpg' width="150" alt="DCC 2026 Figure">
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:top">
+                    <span class="papertitle">CodecGS-IR: Implicit Representation for Decoder-friendly Video-based Gaussian Splat Compression</span><br>
+                    <strong>Soonbin Lee</strong>, Simon Sasse, Yago S&aacute;nchez, Robert Skupin, Tom&aacute;s M. Borges, Cornelius Hellge, Thomas Schierl<br>
+                    <em>Data Compression Conference (DCC)</em>, 2026, Invited Paper
+                  </td>
+                </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top"><img src='material/codecGS.png' width="150"></td>
+                <td style="padding:20px;width:75%;vertical-align:top">
+                  <a href="http://arxiv.org/abs/2501.03399"><span class="papertitle">Compression of 3D Gaussian Splatting with Optimized Feature Planes and Standard Video Codecs</span></a> <a href="https://fraunhoferhhi.github.io/CodecGS/">[Project Page]</a> 
+                </br>
+                  <strong>Soonbin Lee</strong>, Fangwen Shu, Yago Sanchez, Thomas Schierl, Cornelius Hellge<br>
+                  International Conference on Computer Vision (ICCV), 2025
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top"><img src='material/ECRF-fig.png' width="150"></td>
+                <td style="padding:20px;width:75%;vertical-align:top">
+                  <a href="http://arxiv.org/abs/2311.14208"><span class="papertitle">ECRF: Entropy-Constrained Neural Radiance Fields Compression with Frequency Domain Optimization</span></a><br>
+                  <strong>Soonbin Lee</strong>, Fangwen Shu, Yago Sanchez, Thomas Schierl, Cornelius Hellge<br>
+                  <em>IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024</em> <b>(Oral Presentation)</b>
                 </td>
               </tr>
             </tbody>
           </table>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>  
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td class="section-title"><h3>Workshop & Demo</h3></td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:top">
+        <img src='material/mwc26.png' width="150" alt="MWC 2026 Figure">
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top">
+        <a href="https://fraunhoferhhi.github.io/CodecGSDemo/"><span class="papertitle">Turning 4D Gaussian Splats into Video Streams</span></a><br>
+        Congress Square CS64, Fraunhofer HHI Booth<br>
+        <em>Mobile World Congress (MWC) Demo</em>, 2026
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:top">
+        <img src='material/vrw26.png' width="150" alt="VRW 2026 Figure">
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top">
+        <span class="papertitle">Enabling Feature Plane-based 3D Gaussian Splatting on Mobile VR from Video Streams</span><br>
+        <strong>Soonbin Lee</strong>, Simon Sasse, Yago S&aacute;nchez, Cornelius Hellge, Thomas Schierl<br>
+        <em>IEEE Virtual Reality and 3D User Interfaces Workshop (VRW)</em>, 2026
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td class="section-title" style="padding: 20px 20px 5px 20px;">
+        <h3 style="margin: 0;">Standardization Contributions</h3>
+      </td>
+    </tr>
+    
+    <tr>
+      <td style="padding: 15px 20px 10px 40px; vertical-align:top;">
+        <span class="papertitle" style="font-size: 1.0em; display: block; margin-bottom: 8px;">
+          AHG9: Support for implicit representations with the Gaussian splatting information SEI message
+        </span>
+        <div style="padding-left: 15px;">
+          <ul style="margin: 0; padding-left: 18px; font-size: 0.92em; color: #333; line-height: 1.8;">
+            <li>JVET-AN0264/m74316, 2025.10</li>
+            <li>JVET-AO0210/m75278, 2026.01</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    
+    <tr>
+      <td style="padding: 0px 20px 20px 40px; vertical-align:top;">
+        <span class="papertitle" style="font-size: 1.0em; display: block; margin-bottom: 2px;">
+          MPEG-I Immersive Video (MIV)
+        </span>
+        <div style="padding-left: 15px;">
+          <ul style="margin: 0; padding-left: 18px; font-size: 0.92em; color: #777; line-height: 1.8;">
+            <li>+10 MIV-related contributions (-2023)</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td class="section-title" style="padding: 20px 20px 5px 20px;">
+        <h3 style="margin: 0;">Patents</h3>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 15px 20px 10px 40px; vertical-align:top;">
+        <span class="papertitle" style="font-size: 1.0em; display: block; margin-bottom: 8px;">
+          Fraunhofer HHI
+        </span>
+        <div style="padding-left: 15px;">
+          <ul style="margin: 0; padding-left: 18px; font-size: 0.92em; color: #333; line-height: 1.8;">
+            <li>+ 5 SEI-related patents (pending)</li>
+            <li>glTF-related patents (pending)</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 5px 20px 20px 40px; vertical-align:top;">
+        <span class="papertitle" style="font-size: 1.0em; display: block; margin-bottom: 8px;">
+          Sungkyunkwan University (SKKU)
+        </span>
+        <div style="padding-left: 15px;">
+          <ul style="margin: 0; padding-left: 18px; font-size: 0.92em; color: #777; line-height: 1.8;">
+            <li>+ 10 US/KR patents (-2023)</li>
+            <li>2 US patents, LG Electronics Inc. (-2023)</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td class="section-title" style="padding: 10px 20px 5px 20px;">
+        <h3 style="margin: 0;">Reviewer</h3>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px 20px 40px; vertical-align:top;">
+        <div style="padding-left: 15px;">
+          <ul style="margin: 0; padding-left: 18px; font-size: 0.85em; color: #333; line-height: 1.8;">
+            <li>IEEE TCSVT/TMM/TVCG/TNNLS</li>
+            <li>Multimedia Systems, Virtual Reality</li>
+            <li>ACM MM 2024-2026 / DCC 2024</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<details>
+  <summary>Previous Record</summary>
+  
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr><td colspan="2"><span class="sub-header">Awards</span></td></tr>
+      <tr>
+        <td colspan="2" style="padding:10px 20px 20px 40px;">
+          <ul style="font-size: 0.9em; color: #444;">
+            <li>MCSL Outstanding Research Award, 2022</li>
+            <li>SIGMM Student Travel Grants, ACM MMSys, 2022</li>
+            <li>Research Paper Award, SKKU Graduate School, 2022</li>
+            <li>President's Award, Gachon University, 2020</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr><td colspan="2"><span class="sub-header">Conference & Journal Papers</span></td></tr>
 
 <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/codecGS.png' width="150" height="60">
-    </div>
-    <script type="text/javascript">
-      function difsurvey_start() {
-        document.getElementById('difsurvey_image').style.opacity = "1";
-      }
-
-      function difsurvey_stop() {
-        document.getElementById('difsurvey_image').style.opacity = "0";
-      }
-      difsurvey_stop()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:top">
-     <a href="http://arxiv.org/abs/2501.03399">
-      <span class="papertitle">Compression of 3D Gaussian Splatting with Optimized Feature Planes and Standard Video Codecs
-</span>
-    </a>
-    <br>
-	<strong>Soonbin Lee</strong>, Fangwen Shu, Yago Sanchez, Thomas Schierl, Cornelius Hellge
-    <br>
-	<a href="https://fraunhoferhhi.github.io/CodecGS/">https://fraunhoferhhi.github.io/CodecGS/</a>
-    <br>
-
-		
-  </td>
-</tr>
-		    
-		    
-<tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
-  <td style="padding:20px;width:25%;vertical-align:top">
-    <div class="one">
-    <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
-    Your browser does not support the video tag.
-    </video></div>
-      <img src='images/ECRF-fig.png' width="150" height="75">
-    </div>
-    <script type="text/javascript">
-      function difsurvey_start() {
-        document.getElementById('difsurvey_image').style.opacity = "1";
-      }
-
-      function difsurvey_stop() {
-        document.getElementById('difsurvey_image').style.opacity = "0";
-      }
-      difsurvey_stop()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:top">
-     <a href="http://arxiv.org/abs/2311.14208">
-      <span class="papertitle">ECRF: Entropy-Constrained Neural Radiance Fields Compression with Frequency Domain Optimization
-</span>
-    </a>
-    <br>
-	<strong>Soonbin Lee</strong>, Fangwen Shu, Yago Sanchez, Thomas Schierl, Cornelius Hellge
-    <br>
-	<em>IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024</em> <b>(Oral Presentation)</b>
-    <br>
-
-		
-  </td>
-</tr>
-		    
-<tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
-  <td style="padding:20px;width:25%;vertical-align:top">
-    <div class="one">
-    <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
-    Your browser does not support the video tag.
-    </video></div>
-      <img src='images/tomm.png' width="150" height="120">
+      <img src='material/tomm.png' width="150" height="120">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -188,10 +323,10 @@
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/VCIP-fig.png' width="150" height="120">
+      <img src='material/VCIP-fig.png' width="150" height="120">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -223,10 +358,10 @@
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/NOSSDAV23-fig.png' width="150" height="120">
+      <img src='material/NOSSDAV23-fig.png' width="150" height="120">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -258,10 +393,10 @@
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/SPL-fig.png' width="150" height="120">
+      <img src='material/SPL-fig.png' width="150" height="120">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -293,10 +428,10 @@
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/NOSSDAV22-fig_.png' width="150" height="120">
+      <img src='material/NOSSDAV22-fig_.png' width="150" height="120">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -329,10 +464,10 @@
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/ACCESS22-fig.png' width="150" height="90">
+      <img src='material/ACCESS22-fig.png' width="150" height="90">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -366,10 +501,10 @@
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/MM20-fig_.png' width="150" height="90">
+      <img src='material/MM20-fig_.png' width="150" height="90">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -402,10 +537,10 @@
   <td style="padding:20px;width:25%;vertical-align:top">
     <div class="one">
     <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <!-- <source src="images/difsurvey_video.mp4" type="video/mp4"> -->
+    <!-- <source src="material/difsurvey_video.mp4" type="video/mp4"> -->
     Your browser does not support the video tag.
     </video></div>
-      <img src='images/NOSSAV19-fig.png' width="150" height="90">
+      <img src='material/NOSSAV19-fig.png' width="150" height="90">
     </div>
     <script type="text/javascript">
       function difsurvey_start() {
@@ -432,106 +567,57 @@
 	  
   </td>
 </tr>
-              <table width="100%" align="center" border="0" cellpadding="20">
-                <tbody>
-		<tr>
-                    <td width="100%" valign="center">
-                      <h3>Awards</h3>
-                      <ul>
-                        <li>MCSL Outstanding Research Award, 2022</li>
-                        <br>
-                        <li>SIGMM Student Travel Grants, ACM MMSys, 2022</li>
-                        <br>
-                        <li>Research Paper Award, SKKU Graduate School, 2022</li>
-                        <br>
-                        <li>President's Award, Gachon University, 2020</li>
-                      </ul>
-	      </br>
-
-			    <font size=2>
-                      <strong>Reviewer</strong>
-                      <ul>
-                        <li>IEEE Trans. Circuits and Systems for Video Technology (TCSVT)</li>
-			<li>IEEE Trans. Neural Networks and Learning Systems (TNNLS)</li>
-			<li>Multimedia Systems</li>
-		        <li>Virtual Reality</li>
-			<li>ACM Multimedia (MM) 2024, 2025 </li>
-			<li>Data Compression Conference (DCC) 2024</li>
-                      </ul>
-
-			      <strong>Patents</strong>
-			      <ul>
-			      <li>US 2023/0334706A1</li>
-			      <li>US 2022/0343545A1</li>
-			      <li>US 2022/0256131A1</li>
-			      <li>US 2022/0217314A1</li>
-			      <li>US 2022/0116578A1</li>
-			      <li>US 18/354,983</li>
-			      <li>US 18/338,613</li>
-			      <li>US 18/115,248</li>
-			      <li>KR 10-2500199</li>
-		              <li>KR 10-2484999</li>
-			      <li>KR 10-2412410</li>
-			      <li>KR 10-2356037</li>
-			      <li>KR 10-2209192</li>
-			      <li>KR 10-2023-0142819</li>
-			      <li>KR 10-2023-0077401</li>
-			      <li>KR 10-2023-0003994</li>
-			      <li>KR 10-2022-0170721</li>
-		              <li>KR 10-2022-0076272</li>
-			      <li>KR 10-2022-0014916</li>
-			      <li>KR 10-2021-0150076</li>
-			      </ul>
-			      
-		      	      <strong>Standardization Contributions</strong>
-			      <ul>
-			      <li>"[MIV] On Delta QP for Additional View Atlases", document MPEG2022/m60377</li>
-			      <li>"[MIV] Geometry Packing Implementation in TMIV for Frame Packed Video", document MPEG2022/m59442</li>
-			      <li>"[MIV] Joint bit allocation for MIV with rate-distortion optimization", document MPEG2021/m58150</li>
-			      <li>"[MIV] Extraction and Merging on Frame Packed Video", document MPEG2021/m56591</li>
-			      <li>"[MIV] Basic View Packing with Screen Content Coding (SCC)", document MPEG2021/m55966</li>
-			      <li>"[MPEG-I VIsual] EE Results on Dense Light Field Video Compression using VVC”, document MPEG2021/m55965</li>
-			      <li>"[MPEG-I Visual] Report on Asymmetric Quantization on MIV", document MPEG2020/m55014</li>
-			      <li>"[MPEG-I Visual] Report on Dense Light Field Compression in VVC", document MPEG2020/m55013</li>
-			      <li>"On MCTS based tile extractor implementation", document MPEG2020/m53911</li>
-			      <li>"Group Tiling in TMIV", document MPEG2019/m51639</li>
-			      <li>"CE1: Viewport Tile Selector in TMIV for Viewport-dependent Rendering", document MPEG2019/m51638</li>
-			      <li>"CE3: Viewport-dependent Patch Grouping Using HEVC Tiles", document MPEG2019/m50818</li>
-			      </ul>
-			      </font>
-		    </td>
-		</tr>
-		</tbody>
-	      </table>
-
-
-	    <!--
-              <table width="100%" align="center" border="0" cellpadding="20">
-                <tbody>
-		<tr>
-                    <td width="100%" valign="center">
-			    <h3>Hobby</h3>
-				      I am self-taught amateur in music composition. I enjoy analyzing chord progressions, such as 王道進行 (IV-V-iii-vi), 丸サ進行 (IV-III-vi) and Blackadder Chord (Iaug/♯IV) commonly found in J-Pop/Anime songs.
-                    </td>
-                  </tr>
-          </tbody>
-	</table>
-	    -->
-
-
-		
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-			Website template from <a href="https://jonbarron.info/">Jon Barron</a>.
-		</p>
-              </td>
-            </tr>
-          </tbody></table>
+      <tr>
+        <td colspan="2" style="padding:20px;">
+          <span class="sub-header">Patents</span>
+          <font size=2>
+          <ul style="list-style-type: disc; margin-left: 20px; padding-left: 0;">
+            <li>US 2023/0334706A1</li><li>US 2022/0343545A1</li><li>US 2022/0256131A1</li><li>US 2022/0217314A1</li>
+            <li>US 2022/0116578A1</li><li>US 18/354,983</li><li>US 18/338,613</li><li>US 18/115,248</li>
+            <li>KR 10-2500199</li><li>KR 10-2484999</li><li>KR 10-2412410</li><li>KR 10-2356037</li>
+            <li>KR 10-2209192</li><li>KR 10-2023-0142819</li><li>KR 10-2023-0077401</li><li>KR 10-2023-0003994</li>
+          </ul>
+          </font>
         </td>
       </tr>
-    </table>
+
+      <tr>
+        <td colspan="2" style="padding:20px;">
+          <span class="sub-header">Standardization Contributions</span>
+          <font size=2>
+          <ul>
+            <li>"[MIV] On Delta QP for Additional View Atlases", document MPEG2022/m60377</li>
+            <li>"[MIV] Geometry Packing Implementation in TMIV for Frame Packed Video", document MPEG2022/m59442</li>
+            <li>"[MIV] Joint bit allocation for MIV with rate-distortion optimization", document MPEG2021/m58150</li>
+            <li>"[MIV] Extraction and Merging on Frame Packed Video", document MPEG2021/m56591</li>
+            <li>"[MIV] Basic View Packing with Screen Content Coding (SCC)", document MPEG2021/m55966</li>
+            <li>"[MPEG-I VIsual] EE Results on Dense Light Field Video Compression using VVC”, document MPEG2021/m55965</li>
+            <li>"[MPEG-I Visual] Report on Asymmetric Quantization on MIV", document MPEG2020/m55014</li>
+            <li>"[MPEG-I Visual] Report on Dense Light Field Compression in VVC", document MPEG2020/m55013</li>
+            <li>"On MCTS based tile extractor implementation", document MPEG2020/m53911</li>
+            <li>"Group Tiling in TMIV", document MPEG2019/m51639</li>
+            <li>"CE1: Viewport Tile Selector in TMIV for Viewport-dependent Rendering", document MPEG2019/m51638</li>
+            <li>"CE3: Viewport-dependent Patch Grouping Using HEVC Tiles", document MPEG2019/m50818</li>
+          </ul>
+          </font>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <p style="text-align:right;font-size:small;">
+                    Website template from <a href="https://jonbarron.info/">Jon Barron</a>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody></table>
   </body>
 </html>
